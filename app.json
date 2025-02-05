@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "CoffeeShop",
+    "slug": "CoffeeShop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/coffee-icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/coffee-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.srinivask.CoffeeShop"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/coffee-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/coffee-splash.png",
+          "imageWidth": 200,
+          "resizeMode": "cover",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "fe61ba42-c17b-4a05-bf38-97da807f55ca"
+      }
+    },
+    "owner": "srinivask"
+  }
+}
